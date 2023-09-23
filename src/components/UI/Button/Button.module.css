@@ -11,7 +11,11 @@
 .button:focus {
   outline: none;
 }
-
+@media (min-width: 768px) {
+  .button{
+  width: auto;
+}
+}
 .button:hover,
 .button:active {
   background: #ac0e77;
